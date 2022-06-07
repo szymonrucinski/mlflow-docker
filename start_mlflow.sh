@@ -1,0 +1,1 @@
+docker run --name mlflow_container -p 5000:5000  --volume=/data1/userspace/szymon/Galaxus/mlflow/:/home/mlflowuser/mlflow/ -it -d mlflow
